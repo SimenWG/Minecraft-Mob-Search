@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f2/Dirt_background_BE1.png/revision/latest?cb=20210820093527);
+}
+
+body { 
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: #45a049;
+      
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.mob-container {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.mob-card {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.mob-card img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.mob-card div {
+    text-align: left;
+}
+
+.mob-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: green; 
+}
+
+.mob-description {
+    margin-top: 10px;
+    color: #ffffff;
+}
